@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://redcatekkk.github.io/safepass/sitemap.xml',
+    sitemap: 'https://safepass.world/sitemap.xml',
   };
 }

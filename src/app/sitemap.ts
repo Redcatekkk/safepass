@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://redcatekkk.github.io/safepass';
+  const base = 'https://safepass.world';
   return [
     {
       url: base,

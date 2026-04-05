@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'SafePass' }],
   creator: 'SafePass',
-  metadataBase: new URL('https://redcatekkk.github.io/safepass'),
+  metadataBase: new URL('https://safepass.world'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://redcatekkk.github.io/safepass',
+    url: 'https://safepass.world',
     siteName: 'SafePass',
     title: 'SafePass — Free Password Generator',
     description:
