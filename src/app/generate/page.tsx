@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import PasswordGenerator from "@/components/ui/password-generator";
+
+export const metadata: Metadata = {
+  title: "Generate Password",
+  description:
+    "Create a strong, secure password instantly with SafePass. Choose length, character types, passphrases, or PINs — all processed in your browser with zero data stored.",
+  keywords: [
+    "generate password",
+    "password generator tool",
+    "create strong password",
+    "secure password online",
+    "random password maker",
+    "passphrase generator",
+    "PIN generator",
+  ],
+};
 
 const AntiGravityBg = dynamic(
   () =>
