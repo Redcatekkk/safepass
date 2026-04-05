@@ -329,7 +329,7 @@ export default function PasswordGenerator() {
               isAnimating ? 'opacity-0' : 'opacity-100'
             )}
           >
-            {output || '—'}
+            {output || '-'}
           </p>
           <button
             aria-label="Regenerate"

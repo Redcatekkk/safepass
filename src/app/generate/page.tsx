@@ -6,7 +6,7 @@ import PasswordGenerator from "@/components/ui/password-generator";
 export const metadata: Metadata = {
   title: "Generate Password",
   description:
-    "Create a strong, secure password instantly with SafePass. Choose length, character types, passphrases, or PINs — all processed in your browser with zero data stored.",
+    "Create a strong, secure password instantly with SafePass. Choose length, character types, passphrases, or PINs - all processed in your browser with zero data stored.",
   keywords: [
     "generate password",
     "password generator tool",
@@ -29,7 +29,7 @@ const AntiGravityBg = dynamic(
 export default function GeneratePage() {
   return (
     <div className="relative w-full min-h-screen bg-black overflow-hidden selection:bg-blue-500 selection:text-white">
-      {/* Particle canvas — fills entire viewport, interactive via window listeners */}
+      {/* Particle canvas - fills entire viewport, interactive via window listeners */}
       <AntiGravityBg />
 
       {/* Minimal top nav */}
@@ -46,7 +46,7 @@ export default function GeneratePage() {
         <span className="text-xs font-mono text-white/20 tracking-widest uppercase">Secure Generator</span>
       </nav>
 
-      {/* Generator — glass panel centered over the canvas */}
+      {/* Generator - glass panel centered over the canvas */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center py-28 px-4">
         <div className="w-full max-w-xl">
           {/* Eyebrow label */}

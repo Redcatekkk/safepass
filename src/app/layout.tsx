@@ -3,11 +3,11 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'SafePass — Free Password Generator',
+    default: 'SafePass - Free Password Generator',
     template: '%s | SafePass',
   },
   description:
-    'Generate strong, unique passwords instantly with SafePass. Free, browser-based password generator — no data stored, no server involved. Create secure passwords for banking, social media, and more.',
+    'Generate strong, unique passwords instantly with SafePass. Free, browser-based password generator - no data stored, no server involved. Create secure passwords for banking, social media, and more.',
   keywords: [
     'password generator',
     'free password generator',
@@ -30,15 +30,15 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://safepass.world',
     siteName: 'SafePass',
-    title: 'SafePass — Free Password Generator',
+    title: 'SafePass - Free Password Generator',
     description:
-      'Generate strong, unique passwords instantly. Free, browser-based — no data stored, no server involved.',
+      'Generate strong, unique passwords instantly. Free, browser-based - no data stored, no server involved.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SafePass — Free Password Generator',
+    title: 'SafePass - Free Password Generator',
     description:
-      'Generate strong, unique passwords instantly. Free, browser-based — no data stored, no server involved.',
+      'Generate strong, unique passwords instantly. Free, browser-based - no data stored, no server involved.',
   },
   robots: {
     index: true,
