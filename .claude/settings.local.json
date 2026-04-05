@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "mcp__plugin_context-mode_context-mode__ctx_execute",
+      "mcp__plugin_context-mode_context-mode__ctx_execute_file",
+      "mcp__plugin_context-mode_context-mode__ctx_search",
+      "Bash(cp \"old vers/package.json\" .)",
+      "Bash(cp \"old vers/tsconfig.json\" .)",
+      "Bash(cp \"old vers/tailwind.config.ts\" .)",
+      "Bash(cp \"old vers/next.config.js\" .)",
+      "Bash(cp \"old vers/postcss.config.js\" .)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
